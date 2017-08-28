@@ -346,6 +346,10 @@ span.pt10 {
 		padding-top: 8px;
 	}
 	.widget-block {
-		margin-bottom: 9px;
+		margin-bottom: 10px;
+	}
+	.widget-block img {
+		width: 36px;
+		height: 36px;
 	}
 }
