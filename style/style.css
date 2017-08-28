@@ -1,0 +1,351 @@
+	Fonts   */
+@font-face {
+	font-family: "HelveticaNeue Bold";
+	src: url(../fonts/HelveticaNeue-Bold.ttf);
+}
+@font-face {
+	font-family: "helvetica neue";
+	src: url(../fonts/helveticaneuecyr-light.ttf);
+}
+@font-face {
+	font-family: "helvetica neue medium";
+	src: url(../fonts/helveticaneuecyr-medium.ttf);
+}
+@font-face {
+	font-family: "Ballpark Weiner";
+	src: url(../fonts/Ballpark_Weiner.ttf);
+}
+/*	Reset	*/
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+/*	Main style	*/
+body {
+	font-family: "helvetica neue";
+	font-size: 12px;
+	line-height: 16px;
+	color: #fff;
+}
+
+/*	Header	*/
+.top-block {
+	background: url(../image/bg-top-block.gif) repeat 0 0;
+	border-bottom: 4px solid #242424;
+	padding-bottom: 85px;
+}
+header {
+	padding-top: 24px;
+	padding-bottom: 15px;
+}
+
+/*	Logo	*/
+.logo {
+	font-family: "Ballpark Weiner";
+	line-height: normal;
+	color: #e0e0e0;
+	font-size: 36px;
+}
+.logo:hover {
+	color: #e0e0e0;
+}
+/*	Navigation	*/
+nav a {
+	display: block;
+	color: #e8e8e8;
+	font-family: "HelveticaNeue Bold";
+	line-height: 21px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 12px 14px;
+}
+nav a:hover {
+	color: #e8e8e8;
+}
+.list-inline>li {
+	padding-right: 24px;
+	background: url(../image/line-nav.png) no-repeat 100% 50%;
+}
+nav li.active a,
+nav a:hover {
+	background: linear-gradient(to bottom, #282828, #2e2e2e);
+	border-radius: 3px;
+}
+/*	Form	*/
+form {
+	background: #2f2f2f;
+	border-top: 1px solid #262626;
+	border-radius: 9px;
+	padding: 9px 0;
+}
+button, 
+input {
+	background: transparent;
+	border: none;
+}
+input[type='text'] {
+	width: 75%;
+	outline: none;
+}
+
+/*	Section with slider	*/
+
+/*	Tag line	*/
+.top-block h3 {
+	font-family: "HelveticaNeue Bold";
+	padding-bottom: 34px;
+	line-height: 28px;
+}
+.top-block p {
+	font-family: "HelveticaNeue Bold";
+	line-height: 18px;
+	padding-bottom: 26px;
+}
+.middle-button{
+	background-color: #969697;
+	border: none;
+	font-family: "HelveticaNeue Bold";
+	font-size: 13px;
+	color: #fff;
+	line-height: 20px;
+	text-transform: capitalize;
+	padding: 15px 25px 9px 26px;
+}
+
+/*	Slider	*/
+.carousel-indicators {
+	text-align: right;
+	margin: 0;
+	bottom: -15px;
+	width: 70%;
+}
+.carousel-indicators li,
+.carousel-indicators .active {
+	height: 5px;
+	width: 23px;
+	border: none;
+	border-radius: 0;
+	background: #888;
+}
+.carousel-indicators .active {
+	background: #bebebe;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+
+
+
+/*	Content	*/
+.middle-white-block {
+	background: #fff;
+	color: #333;
+	padding-bottom: 49px;
+}
+
+/*	Articles	*/
+.flex-block {
+	display: flex;
+}
+.flex-item {
+	background: #fff;
+	padding: 25px;
+	margin-top: -65px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.flex-item h4,
+.title-recent {
+	font-family: "helvetica neue medium";
+	font-size: 15px;
+	color: #171717;
+	font-weight: bold;
+}
+.middle-white-block p.grey,
+.middle-white-block p,
+.read-more {
+	font-size: 12px;
+	line-height: 16px;
+	color: #8e8e8e;
+}
+.middle-white-block p,
+.read-more {
+	font-family: "HelveticaNeue Bold";
+	color: #333333;
+}
+.read-more {
+	display: block;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background: url(../image/line.png) repeat-x 0 0;
+}
+.read-more:hover {
+	background: url(../image/line-bot.gif) repeat-x 0 100% #777;
+	color: #fff;
+	transition: 1.5s all;
+}
+.title-recent {
+	margin-left: 25px;
+	padding-bottom: 19px;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+	font-weight: bold;
+	background: url(../image/line.png) repeat-x 0 100%;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+
+/*	Pictures	*/
+.w100 {
+	width: 100%;
+}
+.recent{
+	position: relative;
+	display: block;
+}
+.recent:hover .info{
+	display: block!important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../image/magnifying-glass.png) no-repeat 40% 50% rgba(0,0,0,.75);
+}
+.info li {
+	display: inline-block;
+	margin-right: 35px;
+	font-family: "helvetica neue medium";
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #fff;
+}
+.info li:last-child {
+	margin-right: 0;
+}
+.info ul {
+	position: absolute;
+	bottom: 10px;
+}
+
+/*	Footer	*/
+footer {
+	background: url(../image/bg-top-block.gif) repeat 0 0;
+}
+/*	Top footer	*/
+.top-footer {
+	border-top: 4px solid #242424;
+	padding: 35px 0 30px;
+}
+.footer-tittle {
+	font-family: "HelveticaNeue Bold";
+	font-size: 16px;
+	line-height: 14px;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-bottom: 21px;
+	border-bottom: 1px solid #707070;
+}
+.top-footer p {
+	line-height: 14px;
+	padding-top: 20px;
+}
+.top-footer p.pt13 {
+	padding-top: 13px;
+}
+.top-footer span {
+	color: #707070;
+}
+span.pt10 {
+	display: block;
+	padding-top: 10px;
+}
+.widget-block {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+/*	Bottom footer	*/
+.botom-footer {
+	background: url(../image/footer-bottom-line.png) 0 0;
+	padding: 20px 0;
+}
+.botom-footer .logo {
+	font-family: "Ballpark Weiner";
+	line-height: normal;
+	color: #808080;
+	font-size: 34px;
+}
+.botom-footer p,
+.botom-footer a {
+	color: #818181;
+}
+.botom-footer span,
+.botom-footer a:hover {
+	color: #b2b2b2;
+}
+
+/*	Adaptive layout	*/
+/*	Small	*/
+@media screen and (min-width: 767px) {
+	/*	Header	*/
+	.top-block {
+		padding-bottom: 65px;
+	}
+	.top-block h3 {
+		padding-bottom: 24px;
+		line-height: 26px;
+	}
+	.top-block p {
+		line-height: 14px;
+		padding-bottom: 18px;
+	}
+	.carousel-indicators {
+		width: 50%;
+	}
+	/*	Content	*/
+	.flex-item {
+	    padding-bottom: 5px;
+	}
+	.flex-item h4,
+	.title-recent {
+		font-size: 11px;
+	}
+	.middle-white-block p.grey,
+	.middle-white-block p,
+	.read-more {
+		font-size: 9px;
+		line-height: 14px;
+	}
+	/*	Footer	*/
+	.footer-tittle {
+		font-size: 14px;
+		line-height: 10px;
+		padding-bottom: 16px;
+	}
+	.top-footer p {
+		line-height: 14px;
+		padding-top: 15px;
+	}
+	.top-footer p.pt13 {
+		padding-top: 9px;
+	}
+	span.pt10 {
+		padding-top: 8px;
+	}
+	.widget-block {
+		margin-bottom: 9px;
+	}
+}
